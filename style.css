@@ -1,0 +1,96 @@
+.header{
+    background-color: #f0f8ff;
+    background-image:url("origami4.jpg");
+    background-position: center;
+    padding:10px;
+    margin:10px
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color:cyan;
+}
+
+.links{
+    display: inline;
+    justify-content: space-around;
+    background: linear-gradient(lightpink, lightBlue);
+    margin:20px;
+    box-shadow: 5px 5px 3px 1px #999;
+}
+
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f08080;
+}
+
+.grid img{
+    border:solid;
+    border-width:2px;
+    border-color:#000000;
+    border-radius:50px;
+}
+
+.oirgami{
+    border-radius:20px;
+    background-color: #ffffff;
+
+    width:310px;
+    font-family:fantasy;
+    padding:30px;
+    margin:10px;
+    box-shadow: 5px 5px 3px 1px #999;
+}
+
+.origami:hover{
+    transform:scale(0.9);
+}
+
+.aboutOrigami{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: solid;
+    border-radius: 10px;
+    padding:10px;
+    margin:20px;
+ 
+    background: linear-gradient(pink, lightGreen);
+}
+
+.websitecontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url("bg1.jpg");
+    padding:20px;
+    margin:10px;
+}
+
+body{
+    background-color: #F5F5F5;
+    margin:0px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(red, blue);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+img{
+    position: relative;
+}
